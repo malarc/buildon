@@ -1,0 +1,50 @@
+derby db :
+
+derby bin folder >ij
+------------
+
+ij -interactive editor 
+
+if database not created early
+---------------------------
+connect 'jdbc:derby:d:/temp/db;create=true';
+
+
+if already exist:
+-------------------
+connect 'jdbc:derby:d:/temp/db;
+
+
+
+CREATE TABLE USERS (name VARCHAR(20),password VARCHAR(20));
+
+
+create table USERS (
+   NAME VARCHAR(20)
+   PASSWORD varchar(20)
+);
+
+INSERT INTO USERS (NAME,PASSWORD) VALUES('pass','pass');
+
+
+ALTER TABLE USERS  CHANGE `NAME` `USER`  VARCHAR(20);
+
+
+
+
+
+
+
+storage :
+-------
+What is the size limit of a database? A: Java DB stores each base table and each index in a single file, so the data size limit is the file size limit of the JVM and OS on which it runs. Derby is coded against the Java 64 bit interfaces to access these files, so internally the maximum table size is approximately 2*64. The number of tables is only limited by the 64 bit length of table identifiers, for an approximate limit of 2*64 total tables. In practice, system resources such as disk space are a more likely source of size limitations. Java DB is tested on a database using over 350 GB of raw disk space with tables containing over 500 million tuples.
+
+
+
+
+angular.js
+---------------
+http://jtblin.github.io/angular-chart.js/
+
+tabs :https://fiddle.jshell.net/jccrosby/eRGT8/light/
+-----
