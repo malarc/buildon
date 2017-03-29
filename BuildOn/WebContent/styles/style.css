@@ -1,0 +1,77 @@
+.whiteframe-8dp-login{
+  background-color: #F2FCE2;
+  padding-bottom: 20px;
+}
+
+.errorTextFormat{
+  font-size: 14px;
+  font-weight:bold;
+    line-height: 14px;
+    color:red;
+    margin-top:-21px;
+    margin-bottom:15px;
+}
+.bordercont{
+	border: 1px solid ;
+	 width :500px; 
+	 margin-top:25px;
+	 padding:10px;
+		
+}
+.container button {
+          
+  width: 100%;
+  margin: 1px;
+  text-align: center;
+  /* border: 1px solid red; */
+}
+
+.table, th ,tr, td {
+  border: 1px solid grey;
+  border-collapse: collapse;
+  padding: 5px;
+  align:center;
+  
+}
+
+.bargraph{
+	height:200px;
+	width:200px;	
+	
+}
+
+.textfont{
+	
+	font-weight:bold;
+	margin-left:75px;
+	}
+
+ .ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+	}
+	li {
+    float: left;
+    border: 1px solid #000;
+    border-bottom-width: 0;
+    margin: 3px 3px 0px 3px;
+    padding: 5px 5px 0px 5px;
+    background-color: #CCC;
+ 
+	}
+
+	#mainView {
+    border: 1px solid black;
+	clear: both;
+	padding: 0 1em;
+	}
+	.active {
+    background-color: #FFF;
+    color: #000;
+	}
+	
+	.ace_editor {
+	height:500px;
+	width:500px;
+	}

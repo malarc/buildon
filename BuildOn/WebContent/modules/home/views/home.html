@@ -1,0 +1,70 @@
+ <div class="textfont" >Welcome to Build On</div>
+ <div layout-align="center center"  >
+		<div layout="row" >
+		<table>
+			<tr>
+				<td>
+					<div class="bargraph">
+		 			<canvas id="bar" class="chart chart-bar"   chart-data="data" chart-labels="labels" chart-series="series">
+					</canvas>
+				</div>
+				</td>
+				<td>
+					<div class="bargraph">
+					<canvas id="bar" class="chart chart-bar"  chart-data="data" chart-labels="labels" chart-series="series">
+					</canvas>
+				</div>
+				</td>
+				
+				<td>
+					
+					<div  layout="row"  >
+						<div >Build On</div>
+						
+								<div class="col-md-8" >
+								 <section ng-repeat="proj in enrollments" style="margin-left:10px;padding:10px">
+  								{{proj.name}} 
+ 
+    							<select ng-model="proj.rating" ng-options="rating.value as rating.name for rating in project"></select>
+  								</section>
+								</div>
+					</div>	
+					<div  layout="row"  >
+						Build On yaml<a href="#/edit"> Edit.yml</a>	
+							 
+					</div>
+					<div  layout="row"  >
+						<div class="col-md-6" ><button >Build</button></div>
+					</div>
+				
+				</td>
+	
+			</tr>
+			<tr>
+				<td>	
+					<div class="bargraph">
+					<canvas id="bar" class="chart chart-bar"  chart-data="data1" chart-labels="labels1" chart-series="series1">
+					</canvas>
+					</div>
+				</td>
+				<td>	
+					<div class="bargraph">	
+					<canvas id="bar" class="chart chart-bar" 	chart-data="data1" chart-labels="labels1" chart-series="series1">
+					</canvas>
+					</div>
+				</td>
+				</tr>
+	</table>
+	</div>
+
+		
+  </div>
+  
+  
+  
+  
+  
+
+  
+  
+ 

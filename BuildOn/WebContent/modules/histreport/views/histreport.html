@@ -1,0 +1,66 @@
+<div layout="column">
+	
+	<div layout="row" >
+		<div class="col-md-8"  >
+		<div layout-gt-xs="row">
+      		Start Date 
+      	
+      	<input  class="form-control" type="date" ng-model="startdate">
+      	<!-- 	<md-datepicker ng-model="$scope.minDate " md-placeholder="Enter date"></md-datepicker> -->
+    	</div>
+		</div>
+		<div class="col-md-8"  >
+		<div layout-gt-xs="row">
+      	End Date 
+      	<input  class="form-control" type="date" ng-model="enddate">
+      	<!-- 	<md-datepicker ng-model="ctrl.edate" md-placeholder="Enter date"></md-datepicker> -->
+    	</div>
+		</div>
+		<div class="col-md-6"  >
+		<div layout-gt-xs="row">
+		Project 
+		<select ng-model="proj" ng-options="c.name for c in project"></select>
+		</div>
+		</div>
+		<div class="col-md-6" style="padding:10px;" >
+		<button ng-click=search()>Search</button>
+		</div>
+	</div>
+	
+	<div layout="row">
+		<table align="center" >
+			<th>Job Id</th>
+			<th>Status</th>
+			<th>Project</th>
+			<th>Branch</th>
+			<th>Time</th>
+			<th>Duration</th>
+			<th>Committ ID</th>
+			<th>Committ Log</th>
+			<tr>
+				<td><a href="#">10121</a></td>
+				<td> Success</td>
+				<td> Payments </td>
+				<td> master</td>
+				<td> 20 mins ago</td>
+				<td> 2:00mins</td>
+				<td>1213 </td>
+				<td> test</td>
+			</tr>
+			<tr ng-repeat="result in results  track by $index">
+				<td><a href="#"> {{result.jobId}}</a> </td>
+				<td> {{result.status}}</td>
+				<td> {{result.Project}}</td>
+				<td> {{result.Branch}}</td>
+				<td> {{result.time}}</td>
+				<td> {{result.Duration}}</td>
+				<td> {{result.commitid}}</td>
+				<td> {{result.commitLog}}</td>
+			</tr>
+		</table>
+		
+		   
+		
+		   
+	</div>
+</div>	
