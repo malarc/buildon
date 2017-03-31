@@ -1,0 +1,29 @@
+git config --global http.sslVerify false
+
+
+http://www.doublecloud.org/2013/01/how-to-read-git-repository-using-java-apis/
+
+
+http://mail.wso2.org/mailarchive/dev/2014-November/038977.html
+
+access derby db from other machine 
+---------------------------------------
+http://stackoverflow.com/questions/21796327/how-to-access-derby-database-in-another-system-from-current-system
+
+
+Gjit url
+---------------
+
+https://www.javacodegeeks.com/2015/12/clone-git-repositories-jgit.html
+
+http://www.codeaffine.com/2014/12/09/jgit-authentication/
+
+
+https://github.com/centic9/jgit-cookbook/blob/master/src/main/java/org/dstadler/jgit/porcelain/ListBranches.java
+
+
+
+
+git operations 
+
+http://www.programcreek.com/java-api-examples/index.php?source_dir=justrelease-master/justrelease-core/src/main/java/com/justrelease/git/GitOperations.java
