@@ -1,7 +1,7 @@
 - job:
-    name: 'TestJob'
-    project-type: 'freestyle'
-    description: 'Example job'
+    name: ''
+    project-type: ''
+    description: ' '
     builders:
       - shell:
-          echo 'Hello'
+          echo ''
