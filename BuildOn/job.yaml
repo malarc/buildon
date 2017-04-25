@@ -4,4 +4,4 @@
     description: 'Example job'
     builders:
       - shell:
-          echo 'Hello't
+          echo 'malar't
