@@ -1,8 +1,0 @@
-com\domain\Address.class
-com\domain\SearchResults.class
-com\services\BuildOnServiceImpl.class
-com\services\BuildOnService.class
-com\controller\SearchServlet.class
-com\dao\BuildOnDAOImpl.class
-com\controller\Authentication.class
-com\dao\BuildOnDAO.class
