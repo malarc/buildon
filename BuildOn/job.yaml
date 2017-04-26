@@ -4,4 +4,4 @@
     description: 'Example job'
     builders:
       - shell:
-          echo 'malar'
+          echo 'malar test'
