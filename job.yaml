@@ -1,7 +1,7 @@
 - job:
-    name: 'TestJob'
+    name: 'no projects'
     project-type: 'freestyle'
     description: 'Example job'
     builders:
       - shell:
-          echo 'master test  Hello'
+          echo 'no projects '
