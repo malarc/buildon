@@ -5,4 +5,3 @@
     builders:
       - shell:
           echo 'no projects test testtest'
-tr
