@@ -4,4 +4,4 @@
     description: 'Example job'
     builders:
       - shell:
-          echo 'Hello test Docker '
+          echo 'Hello test Docker Docker '
