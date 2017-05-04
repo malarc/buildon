@@ -4,5 +4,5 @@
     description: 'Example job'
     builders:
       - shell:
-          echo 'no projects test testtest'
+          echo 'no projects test '
  
