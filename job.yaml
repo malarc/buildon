@@ -1,8 +1,0 @@
-- job:
-    name: 'no projects'
-    project-type: 'freestyle'
-    description: 'Example job'
-    builders:
-      - shell:
-          echo 'no projects testtrtr  test '
- 
